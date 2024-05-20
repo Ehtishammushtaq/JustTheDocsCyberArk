@@ -23,3 +23,14 @@ This site is maintained by **Ehtisham Mushtaq**. It is designed to provide clear
 
 Feel free to navigate through the site using the links in the sidebar or the search function to find the specific information you need.
 
+
+## Preliminaries
+
+Following is the higher level abstraction of CyberArk
+## Architecture
+<br>
+<img src="{{ site.baseurl }}/assets/Images/infrastructure.png" alt="Infrastructure" style="width: 100%; height: auto; margin: auto; display: block;">
+<br>
+## Component Interaction
+<br>
+<img src="{{ site.baseurl }}/assets/Images/components.png" alt="Components" style="width: 100%; height: auto; margin: auto; display: block;">
