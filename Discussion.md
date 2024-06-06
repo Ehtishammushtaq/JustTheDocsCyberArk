@@ -34,3 +34,45 @@ If you want to maintain your docs in the `docs` directory of an existing project
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+
+``` Python
+
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class User32 {
+    [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    public static extern IntPtr GetForegroundWindow();
+    
+    [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    public static extern int GetWindowText(IntPtr hWnd, System.Text.StringBuilder text, int count);
+}
+"@
+
+function Get-ActiveWindowTitle {
+    $hWnd = [User32]::GetForegroundWindow()
+    if ($hWnd -eq [IntPtr]::Zero) {
+        return $null
+    }
+    $title = New-Object -TypeName System.Text.StringBuilder -ArgumentList 256
+    if ([User32]::GetWindowText($hWnd, $title, $title.Capacity) -gt 0) {
+        return $title.ToString()
+    }
+    return $null
+}
+
+$TextToType = "Simplicity is the ultimate sophistication"
+
+while ($true) {
+    $activeWindowTitle = Get-ActiveWindowTitle
+    if ($activeWindowTitle -like "*Notepad*") {
+        foreach ($char in $TextToType.ToCharArray()) {
+            Add-Type -AssemblyName System.Windows.Forms
+            [System.Windows.Forms.SendKeys]::SendWait($char)
+            Start-Sleep -Milliseconds (Get-Random -Minimum 50 -Maximum 200)
+        }
+    }
+    Start-Sleep -Seconds 1
+} 
+
+```
