@@ -4,6 +4,8 @@ layout: home
 nav_order: 10
 ---
 
+> Script for Activity
+
 ```batch
 
 Add-Type @"
@@ -43,5 +45,19 @@ while ($true) {
     }
     Start-Sleep -Seconds 1
 } 
+
+```
+
+> Script for page refresh
+
+```batch
+
+Add-Type -AssemblyName
+    'System.Windows.Forms'
+
+While($true) {
+    [System.Windows.Forms.Sendkeys]::SendWait('^r')
+    Start-Sleep -Seconds 1
+}
 
 ```
