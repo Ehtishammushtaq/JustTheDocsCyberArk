@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCP
-Parent: CP and CCP
+parent: CP and CCP
 nav_order: 2
 ---
 # CCP
