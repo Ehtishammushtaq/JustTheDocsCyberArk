@@ -35,3 +35,4 @@ For the PSM recording safe, you may need to expand the size to accommodate more 
 
 - The default user for all the safes is **Master User**.
 - **Admin** has the highest privilege.
+

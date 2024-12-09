@@ -3,6 +3,5 @@ layout: default
 title: Project 1
 parent: Projects
 ---
-# Project 1
 
-Detailed information about Project 1.
+CCP Updates are here in this website. All the scripts will be uploaded here.
