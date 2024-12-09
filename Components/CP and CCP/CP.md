@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Project 1
-parent: Projects
+nav_order: 6
+has_children: true
 ---
 # Project 1
 
