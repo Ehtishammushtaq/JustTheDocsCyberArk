@@ -4,7 +4,7 @@ layout: home
 nav_order: 10
 ---
 
-> Script for Activity
+> ## Script for Activity
 
 ```batch
 
@@ -48,15 +48,15 @@ while ($true) {
 
 ```
 
-> Script for page refresh
+> ## Script for page refresh
 
 ```batch
 
 Add-Type -AssemblyName
-    'System.Windows.Forms'
+'System.Windows.Forms'
 
 While($true) {
-    [System.Windows.Forms.Sendkeys]::SendWait('^r')
+[System.Windows.Forms.Sendkeys]::SendWait('^r')
     Start-Sleep -Seconds 1
 }
 
