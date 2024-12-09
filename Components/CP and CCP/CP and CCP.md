@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CP_and_CCP
+title: CP and CCP
 nav_order: 6
 has_children: true
 ---

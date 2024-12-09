@@ -1,8 +1,9 @@
 ---
 layout: default
 title: CP
-Parent: CP_and_CCP
+Parent: CP and CCP
+nav_order: 1
 ---
-# Project 1
+# CP
 
-Detailed information about Project 1.
+CP
