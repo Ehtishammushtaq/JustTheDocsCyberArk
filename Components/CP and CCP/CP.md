@@ -1,8 +1,7 @@
 ---
 layout: default
 title: CP
-nav_order: 4
-Parent: CP and CCP
+Parent: CP_and_CCP
 ---
 # Project 1
 

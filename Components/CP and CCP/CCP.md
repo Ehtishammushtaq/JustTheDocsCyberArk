@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCP
-Parent: CP and CCP
+Parent: CP_and_CCP
 ---
 
 
