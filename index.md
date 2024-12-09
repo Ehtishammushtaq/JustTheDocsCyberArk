@@ -10,7 +10,7 @@ Welcome to the CyberArk Documentation site. This site serves as a comprehensive 
 ## Getting Started
 
 {: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+>This website documents the features of the current `main` branch of the Just the Docs theme.
 
 CyberArk is a security tool that helps organizations protect their privileged accounts and credentials. It offers a range of solutions for securing, managing, and monitoring privileged access.
 
