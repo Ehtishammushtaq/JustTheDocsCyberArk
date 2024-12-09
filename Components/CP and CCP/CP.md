@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CP
-parent: CP and CCP
+parent: Credential Providers
 nav_order: 1
 ---
 # CP

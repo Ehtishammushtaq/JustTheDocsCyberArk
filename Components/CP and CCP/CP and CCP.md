@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CP and CCP
+title: Credential Providers
 nav_order: 6
 has_children: true
 ---
