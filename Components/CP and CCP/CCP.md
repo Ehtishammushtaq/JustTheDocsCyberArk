@@ -1,7 +1,6 @@
 ---
 layout: default
 title: CCP
-nav_order: 3
 Parent: CP and CCP
 ---
 
