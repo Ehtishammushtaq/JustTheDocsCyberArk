@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Project 1
-nav_order: 6
-has_children: true
+title: CP
+nav_order: 4
+Parent: CP and CCP
 ---
 # Project 1
 
