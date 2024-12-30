@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Config Files
+title: CyberArk Vault
 parent: Vault
 nav_order: 5
 ---

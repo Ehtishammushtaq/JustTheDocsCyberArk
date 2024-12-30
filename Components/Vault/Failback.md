@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Failback
-parent: Vault
+parent: CyberArk Vault
 nav_order: 5
 ---
 # Failback

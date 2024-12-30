@@ -1,7 +1,7 @@
 ---
 layout: default
 title: High Availability
-parent: Vault
+parent: CyberArk Vault
 nav_order: 5
 ---
 # High Availability
